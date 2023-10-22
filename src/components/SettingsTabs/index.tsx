@@ -8,7 +8,7 @@ export function SettingTabs() {
 
   return (
     <Tabs.Root value={currentTab} onValueChange={setCurrentTab}>
-      <Tabs.List className="zinc-200 mt-6 flex w-full items-center gap-4 border-b">
+      <Tabs.List className="zinc-200 mt-6 flex w-full items-center gap-4 border-b border-zinc-300">
         <TabItem
           value="tab1"
           title="My details"
