@@ -3,9 +3,11 @@
 import { Trash2, UploadCloud } from 'lucide-react'
 import { useFileInput } from './Root'
 import { formatBytes } from '@/utils/formatBytes'
+import { useAutoAnimate } from '@formkit/auto-animate/react'
 
 export function FileList() {
   const { files } = useFileInput()
+  const [parent] = useAutoAnimate()
 
   return (
     <div className="mt-4 space-y-3">
@@ -13,6 +15,7 @@ export function FileList() {
         return (
           <div
             key={file.name}
+            ref={parent}
             className="group flex items-start gap-4 rounded-lg border border-zinc-200 p-4"
           >
             <div className="rounded-full border-4 border-violet-100 bg-violet-200 p-2 text-violet-600">
