@@ -13,15 +13,15 @@ export function Profile() {
         height={40}
       />
       <div className="flex flex-col truncate">
-        <span className="text-sm font-semibold text-zinc-700">
+        <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-100">
           Vinicius Ponte
         </span>
-        <span className="truncate text-sm text-zinc-500">
+        <span className="truncate text-sm text-zinc-500 dark:text-zinc-400">
           viniciusbponte@gmail.com
         </span>
       </div>
       <Button variant="ghost" type="button">
-        <LogOut className="h-5 w-5 text-zinc-500 group-hover:text-violet-600" />
+        <LogOut className="h-5 w-5 text-zinc-500" />
       </Button>
     </div>
   )
