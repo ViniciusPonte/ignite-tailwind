@@ -34,7 +34,7 @@ Este projeto de demonstração tem como objetivo ajudar os desenvolvedores a exp
 
 ## Requisitos de Instalação
 
-Liste os requisitos que os usuários precisam atender antes de instalar e usar seu projeto. Isso pode incluir dependências, versões específicas de software e configurações do sistema.
+Para executar o projeto, siga os passos abaixo:
 
 ```bash
 1. Clone este repositório em sua máquina
