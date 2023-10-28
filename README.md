@@ -7,9 +7,6 @@ Este projeto de demonstração tem como objetivo ajudar os desenvolvedores a exp
 - [Objetivo](#objetivo)
 - [Capturas de Tela](#capturas-de-tela)
 - [Requisitos de Instalação](#requisitos-de-instalação)
-- [Como Usar](#como-usar)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Objetivo
 
